@@ -4,7 +4,7 @@
 
 # Details
 
-| OpenCore Version | 1.0.1 |
+| OpenCore Version | 1.0.3 |
 | --- | --- |
 | macOS Version | 13.7 (Ventura) |
 | SMBios | MacBookAir9,1 |
