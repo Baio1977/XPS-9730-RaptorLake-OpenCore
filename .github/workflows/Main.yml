@@ -24,19 +24,14 @@ jobs:
 
     - name: Zip EFI
       run: |
-        rm -Rf TOOLS
-        rm -Rf "Debug Bios V 1.25.0"
-        rm -Rf Screenshot
-        rm -Rf "TOOLS EFI MOD"
+        rm -Rf screenshot
         rm -Rf .gitignore
-        rm -Rf "Vostro 5501 ICL MacBookAir 9.1.ioreg"
+        rm -Rf "XPS 9730 MacbookAir 9.1.ioreg"
         rm -Rf README.md
-        rm -Rf opencore-2023-11-07-192719.txt
-        rm -Rf "DRIVER WIN X64 DW1830.zip"
         rm -Rf ".github"
         rm -Rf ".git"
         
-        zip -r DellVostro5501.zip .
+        zip -r DellXPS9730RaptorLake.zip .
         
     - name: Upload artifact
       uses: actions/upload-artifact@v4.6.2
@@ -51,7 +46,7 @@ jobs:
          repo_token: ${{ secrets.GITHUB_TOKEN }}
          file: ./*.zip
          tag: ${{ github.ref }}
-         release_name: EFI DellVostro5501 Hackintosh
+         release_name: EFI DellXPS9730 Hackintosh
          body: ${{ github.event_name != 'release' && github.event.head_commit.message || '' }}
          file_glob: true
          overwrite: true
