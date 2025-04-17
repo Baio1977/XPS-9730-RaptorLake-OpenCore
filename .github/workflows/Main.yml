@@ -36,8 +36,8 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v4.6.2
       with:
-        name: Dell XPS9730 RaptorLake
-        path: Dell XPS9730 RaptorLake.zip
+        name: DellXPS9730RaptorLake
+        path: DellXPS9730RaptorLake.zip
         
     - name: Upload build
       uses: svenstaro/upload-release-action@2.9.0
