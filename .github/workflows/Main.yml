@@ -95,8 +95,8 @@ jobs:
 
     - name: Copy SSDT-Thinkpad_X1Tablet_3Gen.aml to EFI/OC/ACPI
       run: |
-        echo "Copying SSDT-Thinkpad_X1Tablet_3Gen.aml to EFI/OC/ACPI..."
-        cp ./EFI/OC/ACPI/SSDT-Thinkpad_X1Tablet_3Gen.aml ./EFI/OC/ACPI/
+        echo "Copying SSDT-Dell_XPS9730_Raptorlake.aml to EFI/OC/ACPI..."
+        cp ./EFI/OC/ACPI/SSDT-Dell_XPS9730_Raptorlake.aml ./EFI/OC/ACPI/
 
     - name: Clean up
       run: |
@@ -117,7 +117,7 @@ jobs:
     - name: Upload EFI artifact
       uses: actions/upload-artifact@v4.6.1
       with:
-        name: Lenovo ThinkPad X1 Tablet 3°Gen-EFI
+        name: XPS 9730 RaptorLake-EFI
         path: EFI.zip
     
     - name: Upload build
