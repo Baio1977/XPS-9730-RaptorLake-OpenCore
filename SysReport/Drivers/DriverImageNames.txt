@@ -1,0 +1,44 @@
+1.0 UEFI Opal Driver
+Intel UEFI RAID Disk Info Driver
+Intel(R) GOP Driver [21.0.1061]
+Intel(R) RST 19.5.0.5676 RST VMD Driver
+Universal Flash Storage (UFS) Pci Host Controller Driver
+Universal Flash Storage (UFS) Pass Thru Driver
+Usb Mouse Driver
+Realtek USB UNDI Driver
+Serial Io Uart Driver
+PS/2 Keyboard Driver
+PS/2 Mouse Driver
+PCI Serial Driver
+Touch Host Controller Driver
+Touch Host Controller QuickSpi Driver
+SCSI Bus Driver
+Scsi Disk Driver
+Serial ATA Controller Initialization Driver
+Dell NTFS File System Driver
+PCI Bus Driver
+Dell Usb Xhci Driver
+Usb Ehci Driver
+Usb Uhci Driver
+Usb Bus Driver
+Usb Mass Storage Driver
+Usb Keyboard Driver
+Generic Disk I/O Driver
+Partition Driver(MBR/GPT/El Torito)
+FAT File System Driver
+Graphics Console Driver
+Platform Console Management Driver
+Console Splitter Driver
+Sata Controller Init Driver
+ATA Bus Driver
+AtaAtapiPassThru Driver
+PCI SIO Serial Driver
+NVM Express Driver
+Super I/O Driver
+Serial Terminal Driver
+I2c Host Driver
+AMD GOP X64 Release Driver Rev.3.1.0.Mar 14 2021.23:17:45
+HDA Controller Driver
+rEFInd 0.13.2 ext4 File System Driver
+HFS File System Driver
+APFS

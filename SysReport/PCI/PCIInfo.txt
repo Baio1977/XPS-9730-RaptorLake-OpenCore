@@ -1,0 +1,152 @@
+01. Bridge device - Host bridge
+    Vendor ID: 0x0001, Device ID: 0x8086, RevisionID: 0xA706, ClassCode: 0x000600, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x0,0x0)
+
+02. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x0002, Device ID: 0x8086, RevisionID: 0xA70D, ClassCode: 0x000604
+    DevicePath: PciRoot(0x0)/Pci(0x1,0x0)
+
+03. Display controller - 3D controller
+    Vendor ID: 0x0003, Device ID: 0x10DE, RevisionID: 0x2820, ClassCode: 0xA10302, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)
+
+04. Display controller - VGA-compatible controller
+    Vendor ID: 0x0004, Device ID: 0x8086, RevisionID: 0xA7A0, ClassCode: 0x040300, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x2,0x0)
+
+05. Data acquisition and signal processing controller - Other data acquisition/signal processing controller
+    Vendor ID: 0x0005, Device ID: 0x8086, RevisionID: 0xA71D, ClassCode: 0x001180, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x4,0x0)
+
+06. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x0006, Device ID: 0x8086, RevisionID: 0xA74D, ClassCode: 0x000604
+    DevicePath: PciRoot(0x0)/Pci(0x6,0x0)
+
+07. Mass storage controller - NVM Express I/O controller
+    Vendor ID: 0x0007, Device ID: 0x15B7, RevisionID: 0x5030, ClassCode: 0x010108, SubsystemVendorID: 0x15B7, SubsystemID: 0x5030
+    DevicePath: PciRoot(0x0)/Pci(0x6,0x0)/Pci(0x0,0x0)
+
+08. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x0008, Device ID: 0x8086, RevisionID: 0xA73D, ClassCode: 0x000604
+    DevicePath: PciRoot(0x0)/Pci(0x6,0x2)
+
+09. Mass storage controller - NVM Express I/O controller
+    Vendor ID: 0x0009, Device ID: 0x1C5C, RevisionID: 0x1959, ClassCode: 0x000108, SubsystemVendorID: 0x1C5C, SubsystemID: 0x1959
+    DevicePath: PciRoot(0x0)/Pci(0x6,0x2)/Pci(0x0,0x0)
+
+10. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x000A, Device ID: 0x8086, RevisionID: 0xA76E, ClassCode: 0x000604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x0)
+
+11. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x000B, Device ID: 0x8086, RevisionID: 0xA73F, ClassCode: 0x000604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x1)
+
+12. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x000C, Device ID: 0x8086, RevisionID: 0xA72F, ClassCode: 0x000604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x2)
+
+13. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x000D, Device ID: 0x8086, RevisionID: 0xA71F, ClassCode: 0x000604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)
+
+14. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x000E, Device ID: 0x8086, RevisionID: 0x15EF, ClassCode: 0x060604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)
+
+15. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x000F, Device ID: 0x8086, RevisionID: 0x15EF, ClassCode: 0x060604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)/Pci(0x1,0x0)
+
+16. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x0010, Device ID: 0x1002, RevisionID: 0x1478, ClassCode: 0xC10604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)
+
+17. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x0011, Device ID: 0x1002, RevisionID: 0x1479, ClassCode: 0x000604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
+
+18. Display controller - VGA-compatible controller
+    Vendor ID: 0x0012, Device ID: 0x1002, RevisionID: 0x73FF, ClassCode: 0xC10300, SubsystemVendorID: 0x1043, SubsystemID: 0x05D1
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
+
+19. Multimedia controller - High definition audio device
+    Vendor ID: 0x0013, Device ID: 0x1002, RevisionID: 0xAB28, ClassCode: 0x000403, SubsystemVendorID: 0x1002, SubsystemID: 0xAB28
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)
+
+20. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x0014, Device ID: 0x8086, RevisionID: 0x15EF, ClassCode: 0x060604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)/Pci(0x2,0x0)
+
+21. Serial bus controller - Universal Serial Bus xHCI controller
+    Vendor ID: 0x0015, Device ID: 0x8086, RevisionID: 0x15F0, ClassCode: 0x060C03, SubsystemVendorID: 0x0000, SubsystemID: 0x0000
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)
+
+22. Bridge device - PCI-to-PCI bridge
+    Vendor ID: 0x0016, Device ID: 0x8086, RevisionID: 0x15EF, ClassCode: 0x060604
+    DevicePath: PciRoot(0x0)/Pci(0x7,0x3)/Pci(0x0,0x0)/Pci(0x4,0x0)
+
+23. Base system peripheral - Other system peripheral
+    Vendor ID: 0x0017, Device ID: 0x8086, RevisionID: 0xA74F, ClassCode: 0x000880, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x8,0x0)
+
+24. Data acquisition and signal processing controller - Other data acquisition/signal processing controller
+    Vendor ID: 0x0018, Device ID: 0x8086, RevisionID: 0xA77D, ClassCode: 0x011180, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0xA,0x0)
+
+25. Serial bus controller - Universal Serial Bus xHCI controller
+    Vendor ID: 0x0019, Device ID: 0x8086, RevisionID: 0xA71E, ClassCode: 0x000C03, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0xD,0x0)
+
+26. Serial bus controller - USB4 Host Interface controller
+    Vendor ID: 0x001A, Device ID: 0x8086, RevisionID: 0xA73E, ClassCode: 0x000C03, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0xD,0x2)
+
+27. Serial bus controller - USB4 Host Interface controller
+    Vendor ID: 0x001B, Device ID: 0x8086, RevisionID: 0xA76D, ClassCode: 0x000C03, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0xD,0x3)
+
+28. Simple communications controller - Generic XT-compatible serial controller
+    Vendor ID: 0x001C, Device ID: 0x8086, RevisionID: 0x51FC, ClassCode: 0x010700, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x12,0x0)
+
+29. Serial bus controller - Universal Serial Bus xHCI controller
+    Vendor ID: 0x001D, Device ID: 0x8086, RevisionID: 0x51ED, ClassCode: 0x010C03, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x14,0x0)
+
+30. Memory controller - RAM controller
+    Vendor ID: 0x001E, Device ID: 0x8086, RevisionID: 0x51EF, ClassCode: 0x010500, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x14,0x2)
+
+31. Network controller - Other network controller
+    Vendor ID: 0x001F, Device ID: 0x8086, RevisionID: 0x51F1, ClassCode: 0x010280, SubsystemVendorID: 0x8086, SubsystemID: 0x4090
+    DevicePath: PciRoot(0x0)/Pci(0x14,0x3)
+
+32. Serial bus controller - Other serial bus controller
+    Vendor ID: 0x0020, Device ID: 0x8086, RevisionID: 0x51E8, ClassCode: 0x010C80, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x15,0x0)
+
+33. Serial bus controller - Other serial bus controller
+    Vendor ID: 0x0021, Device ID: 0x8086, RevisionID: 0x51E9, ClassCode: 0x010C80, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x15,0x1)
+
+34. Simple communications controller - Other communications device
+    Vendor ID: 0x0022, Device ID: 0x8086, RevisionID: 0x51E0, ClassCode: 0x010780, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x16,0x0)
+
+35. Bridge device - ISA bridge
+    Vendor ID: 0x0023, Device ID: 0x8086, RevisionID: 0x519D, ClassCode: 0x010601, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x1F,0x0)
+
+36. Multimedia controller - Audio device
+    Vendor ID: 0x0024, Device ID: 0x8086, RevisionID: 0x51CA, ClassCode: 0x010401, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x1F,0x3)
+
+37. Serial bus controller - SMBus controller
+    Vendor ID: 0x0025, Device ID: 0x8086, RevisionID: 0x51A3, ClassCode: 0x010C05, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x1F,0x4)
+
+38. Serial bus controller - Other serial bus controller
+    Vendor ID: 0x0026, Device ID: 0x8086, RevisionID: 0x51A4, ClassCode: 0x010C80, SubsystemVendorID: 0x1028, SubsystemID: 0x0BDA
+    DevicePath: PciRoot(0x0)/Pci(0x1F,0x5)
+
